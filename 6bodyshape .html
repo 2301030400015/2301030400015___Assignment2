@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Shape Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e9e9f1;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .back-button {
+            text-align: left;
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+        }
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .option {
+            width: 48%;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .skin-tone {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .skin-tone div {
+            width: 50px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid #000;
+        }
+        .save-button {
+            background: #6A5ACD;
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="back-button">&#8592;</div>
+        
+        <h2>BODY SIZE</h2>
+        <div class="options"><img src="\bodyshape.png" style="width: 152%;height: 100%;"
+            
+        </div>
+        <h2>BODY SIZE</h2>
+        <div class="options">
+            <div class="option">Petite</div>
+            <div class="option">Skinny</div>
+            <div class="option">Average</div>
+            <div class="option">Athletic</div>
+            <div class="option">Plus-size</div>
+             
+             </div>
+
+        <h2>SKIN TONE</h2>
+        <div class="skin-tone"><img src="\colour.png" style="width: 130%;height: 100%;"
+            <div style="background: #E4C9A5;"></div>
+            <div style="background: #D2A679;"></div>
+            <div style="background: #B98E69;"></div>
+            <div style="background: #8C6239;"></div>
+            <div style="background: #5D3A1A;"></div>
+            <div style="background: #3B1C0C;"></div>
+        </div>
+        
+        <button class="save-button">SAVE</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Your Address</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #ebe6ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            background:lightpurple;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: 14px;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        input:focus {
+            border-color: #6c5ce7;
+            outline: none;
+        }
+
+        .use-location {
+            background-color: #f0f0f0;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .confirm-btn {
+            background-color: #6c5ce7;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .confirm-btn:hover {
+            background-color: #5a4acb;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .row input {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            
+            <h2>Add Your Address</h2>
+        </div>
+
+        <label>First name*</label>
+        <input type="text" placeholder="First name">
+
+        <label>Phone Number*</label>
+        <input type="text" value="+91">
+
+        <label>Alternate Phone</label>
+        <input type="text" value="+91">
+        <small>It is used if the primary number is unreachable.</small>
+
+        <label>Email ID*</label>
+        <input type="email" placeholder="Email ID">
+
+        <h3>Address Information</h3>
+
+        <button class="use-location">Use my location</button>
+
+        <label>Pincode*</label>
+        <input type="text" placeholder="Pincode">
+
+        <label>Flat no/building name*</label>
+        <input type="text" placeholder="Flat no/building name">
+
+        <label>Locality/Area/Street*</label>
+        <input type="text" placeholder="Locality/Area/Street">
+
+        <div class="row">
+            <input type="text" placeholder="City*">
+            <input type="text" placeholder="State*">
+        </div>
+
+        <button class="confirm-btn">Confirm</button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Suggestion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #EDE7F6;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-btn {
+            border: none;
+            background: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .product img {
+            width: 100%;
+            max-width: 200px;
+            margin: 100px auto;
+            display: block;
+        }
+
+        .description {
+            font-size: 14px;
+            color: #555;
+            padding: 10px;
+        }
+
+        ul {
+            text-align: left;
+            padding: 0 20px;
+            font-size: 14px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 15px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .active {
+            background-color: #6A1B9A;
+            color: white;
+        }
+
+        .suggestions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+
+        .item {
+            width: 40%;
+            text-align: center;
+            background: #F3E5F5;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .item img {
+            width: 100%;
+            max-width: 100px;
+            border-radius: 5px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .ask-ideas {
+            width: 100%;
+            background: #6A1B9A;
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <button class="back-btn">←</button>
+        <h2>I'm planning to buy this. Will it suit me?</h2>
+
+        <div class="product">
+            <img src="WhatsApp Image 2025-01-23 at 19.05.11_ecc37de7 1 (1).png">
+        </div>
+        <p class="description">
+            You’re wondering if a black turtleneck bodysuit would suit you. It's a great choice! Black is universally flattering, 
+            and turtlenecks can elongate your neck, which is especially nice for a triangle body shape.
+        </p>
+        
+        <ul>
+            <li>Try pairing it with high-waisted jeans or a skirt to balance your proportions.</li>
+            <li>Consider a bodysuit with a slightly looser fit for a more relaxed look.</li>
+            <li>Accessorize with a statement necklace or earrings to draw attention to your face.</li>
+        </ul>
+
+        <div class="buttons">
+            <button class="active">Looks</button>
+            <button>Products</button>
+        </div>
+
+        <div class="suggestions">
+            <div class="item">
+                <img src="WhatsApp Image 2025-01-24 at 18.02.50_71a68b2f 1.png" alt="High Neck Top">
+                <p>Women High Neck Extended Sleeves Top</p>
+                <p class="price">₹1,139</p>
+            </div>
+            <div class="item">
+                <img src="WhatsApp Image 2025-01-23 at 20.17.30_31afd95b 1 (1).png" alt="Black T-shirt">
+                <p>Black T-Shirts for Women by Lulu & Sky</p>
+                <p class="price">₹1,300</p>
+            </div>
+            <div class="item">
+                <img src="WhatsApp Image 2025-01-23 at 20.26.43_3b808fe0 1.png" alt="Cardigan Sweater">
+                <p>Viscose Rib Roll Cardigan Sweater</p>
+                <p class="price">₹700</p>
+            </div>
+            <div class="item">
+                <img src="WhatsApp Image 2025-01-23 at 20.17.43_22f9034c 2.png" alt="Cropped Turtleneck">
+                <p>Cropped Turtleneck - Levi’s</p>
+                <p class="price">₹600</p>
+            </div>
+        </div>
+
+        <button class="ask-ideas">Ask for outfit ideas</button>
+
+    </div>
+
+</body>
+</html>

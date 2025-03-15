@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Stylist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6E6FA;
+            margin:0;
+            padding: 0;
+        }
+
+        .container {
+            width: 50%;
+            margin: auto;
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .search-box img {
+            width: 10px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .search-box input {
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .filter-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+        }
+
+        .filter-buttons button {
+            background-color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .analysis-section {
+            display: flex;
+            overflow-x: scroll;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .analysis-card {
+            min-width: 120px;
+            border-radius: 10px;
+            overflow: hidden;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .analysis-card img {
+            width: 80%;
+            border-radius: 20px;
+        }
+
+        .banner {
+            width: 70%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .category-section h2 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .category {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .category img {
+            width: 100%;
+            height: 70px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Search Bar -->
+        <div class="search-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/709/709722.png" alt="Search">
+            <input type="text" placeholder="Ask for pairing ideas">
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            
+            <button>pairing</button>
+            <button>Products</button>
+            <button>Outfits</button>
+        </div>
+        <img src="\fashion.jpg" style="width: 100%;height: 80%;"
+
+        <!-- Banner Section -->
+        <img class="banner" src="\style.jpg" style="width: 100%;height: 80%;" alt="Taylor Swift Style">
+
+        <!-- Category Section -->
+        <div class="category-section">
+            <h2>STYLE BY CATEGORY</h2>
+            <div class="categories">
+                <div class="category">
+                    <img src="WhatsApp Image 2025-01-23 at 16.58.16_cf058b03 1 (1).png" style="width: 100%;height: 100%;"alt="jeans">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

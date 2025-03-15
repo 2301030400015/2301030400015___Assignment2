@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #f4f4f9; font-family: Arial, sans-serif; }
+        .container { background: #e0e0ff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; width: 350px; }
+        .input-container { display: flex; align-items: center; background: #a2a2df; padding: 10px; border-radius: 5px; margin: 10px 0; }
+        .input-container input { border: none; outline: none; background: transparent; flex: 1; padding-left: 10px; }
+        .toggle-password { cursor: pointer; margin-left: auto; }
+        .button { width: 100%; background: #5c49e0; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px; }
+        .button:hover { background: #4834d4; }
+        .link { color: #5c49e0; text-decoration: none; }
+        .checkbox-container { display: flex; justify-content: space-between; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <lottie-player src="Animation - 1741327375917.json" background="transparent" speed="1" loop autoplay></lottie-player>
+        <h2>Welcome</h2>
+        <div class="input-container"><span>&#128100;</span><input type="text" placeholder="Username"></div>
+        <div class="input-container"><span>&#128274;</span><input type="password" id="password" placeholder="Password"><span class="toggle-password" onclick="togglePassword()">👁️</span></div>
+        <button class="button">Sign In</button>
+        <div class="checkbox-container">
+            <label><input type="checkbox"> Keep Sign In</label>
+            <a href="#" class="link">Forgot Password?</a>
+        </div>
+        <p>Don't have an account? <a href="#" class="link">Sign Up</a></p>
+    </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script>
+        function togglePassword() {
+            let pass = document.getElementById("password");
+            pass.type = pass.type === "password" ? "text" : "password";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+            background: linear-gradient(to bottom, #d8c4f0, #d8c4f0);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .top-section {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #6a5acd;
+            color: white;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .product-card {
+            background: lightpurple;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .price {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-section">
+            <img src="WhatsApp Image 2025-01-23 at 19.05.11_ecc37de7 1 (1).png" alt="Black Turtleneck Crop Top" width="80">
+            <h2>Which one will be better, higher or lower?</h2>
+        </div>
+        <p><strong>Yes</strong> - A black turtleneck crop top is a versatile and stylish piece that can create sleek, modern looks. The fitted silhouette and classic turtleneck design make it a timeless wardrobe staple.</p>
+        <h3>What Works Well:</h3>
+        <ul>
+            <li>The cropped length creates a contemporary silhouette</li>
+            <li>The fitted design offers a clean, streamlined look</li>
+            <li>Black is versatile and easy to style</li>
+            <li>Long sleeves provide good coverage while maintaining elegance</li>
+        </ul>
+        <h3>Suggestions & Alternatives</h3>
+        <ul>
+            <li>Pair with high-waisted bottoms to create a balanced silhouette</li>
+            <li>Layer under blazers or cardigans for versatility</li>
+            <li>Try styling with wide-leg pants or A-line skirts for proportion play</li>
+        </ul>
+        <div class="button-group">
+            <button class="button">Looks</button>
+            <button class="button">Products</button>
+        </div>
+    </div>
+    <div class="products">
+        <div class="product-card">
+            <img src="WhatsApp Image 2025-01-23 at 21.30.38_befd1557 1.png" alt="TRENDYOL A-LINE FRONT SLIT MIDI SKIRT">
+            <p>TRENDYOL A-LINE FRONT SLIT MIDI SKIRT</p>
+            <p class="price">₹2,729</p>
+        </div>
+        <div class="product-card">
+            <img src="WhatsApp Image 2025-01-23 at 22.17.22_ebc839e5 1.png" alt="FLARED SKIRT WITH BELT">
+            <p>FLARED SKIRT WITH BELT</p>
+            <p class="price">₹1,050</p>
+        </div>
+        <div class="product-card">
+            <img src="WhatsApp Image 2025-01-23 at 22.27.00_08426131 1.png" alt="BROWN DRAPED LEATHER BODYCON SKIRT">
+            <p>BROWN DRAPED LEATHER BODYCON SKIRT</p>
+            <p class="price">₹1,499</p>
+        </div>
+        <div class="product-card">
+            <img src="WhatsApp Image 2025-01-23 at 22.17.22_ebc839e5 1.png" alt="KOTTY WOMEN ABOVE KNEE LENGTH A-LINE SKIRT">
+            <p>KOTTY WOMEN ABOVE KNEE LENGTH A-LINE SKIRT</p>
+            <p class="price">₹719</p>
+        </div>
+        <div class="product-card">
+            <img src="WhatsApp Image 2025-01-23 at 21.30.38_befd1557 1.png" alt="FAUX LEATHER MID WAIST SPLIT MINI SKIRT">
+            <p>FAUX LEATHER MID WAIST SPLIT MINI SKIRT</p>
+            <p class="price">₹1,700</p>
+        </div>
+    </div>
+</body>
+</html>

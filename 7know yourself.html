@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Yourself</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6e0f8;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .back-btn {
+            background: #fff;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        h1 {
+            font-weight: bold;
+        }
+        .analysis-buttons button {
+            background: white;
+            border: 1px solid black;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .goal-buttons button {
+            background: white;
+            border: 1px solid black;
+            padding: 12px;
+            margin: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-block;
+            width: 45%;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        .card {
+            width: 48%;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+        }
+        .blue {
+            background-color: #64b5f6;
+        }
+        .orange {
+            background-color: #ffa726;
+        }
+        .footer .ask-btn {
+            background: white;
+            border: 1px solid black;
+            padding: 12px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="back-btn">&#8592;</button>
+        <h1>Know yourself</h1>
+        <div class="analysis-buttons">
+            <button>🎨Colour Analysis</button>
+            <button>🧍Body Shape</button>
+            <button>👍Style Analysis</button>
+        </div>
+        <h2>Fashion Goal</h2>
+        <div class="goal-buttons">
+            <button class="icon-btn">&#128085; Pairing</button>
+            <button class="icon-btn">&#128230; Products</button>
+            <button class="icon-btn">&#128090; Outfits</button>
+            <button class="icon-btn">&#128141; Accessorise</button>
+        </div>
+        <div class="cards">
+            <div class="card blue">
+                <image src="Frame 25 (1).png" alt="Fit Check" class="product-image">
+            </div>
+            <div class="card orange">
+                <image src="Frame 26.png" alt="Fit Check" class="product-image">
+            </div>
+        </div>
+        <div class="footer">
+            <button class="ask-btn">
+                <i class="fas fa-camera"></i> Ask for outfit ideas &#10132;
+            </button>
+        </div>
+    </div>
+</body>
+</html>
